@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(image2.jpg); 
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.register-box{
+	width: 400px;
+	height: 700px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+}
+.students2{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.register-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+::-webkit-input-placeholder{
+	color: #C0C0C0;
+}
+.register-box input{
+	width:100%;
+	margin-bottom: 20px;
+}
+.register-box input[type="text"],input[type="date"],input[type="date"],input[type="time"],input[type="time"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px; 
+}
+.register-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #0000FF;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+.register-box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #C0C0C0;
+	color: #000;
+}
+.register-box a
+{
+	text-decoration: none;
+	font-size:14px;
+	color: #fff; 
+}
+.register-box a:hover
+{
+	color: #39dc79;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
